@@ -47,11 +47,10 @@ def print_banner():
     ██║   ██║╚════╝██║  ██║██║   ██║██╔══██╗██╔═██╗ ██╔══╝  ██╔══██╗
     ╚██████╔╝      ██████╔╝╚██████╔╝██║  ██║██║  ██╗███████╗██║  ██║
      ╚═════╝       ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-                                                           by Nikhil Yadav
     """
     version = "v2.0"
     console.print(Panel(Text(banner, style="bold blue"), title=f"[bold yellow]Version {version}[/bold yellow]", 
-                       subtitle="[bold cyan]By Your Name[/bold cyan]"))
+                       subtitle="[bold cyan]By Nikhil Yadav[/bold cyan]"))
 
 class SearchProgress:
     """Manage search progress display"""
